@@ -1,0 +1,27 @@
+{
+  "name": "YDLHModuleSDK",
+  "version": "0.1.0",
+  "summary": "A short description of YDLHModuleSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JamWangJam/YDLHModuleSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamWangJam": "superwangjianmin@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JamWangJam/YDLHModuleSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YDLHModuleSDK/Classes/**/*",
+  "dependencies": {
+    "YDBaseClassSDK": [
+      "0.0.3"
+    ]
+  }
+}

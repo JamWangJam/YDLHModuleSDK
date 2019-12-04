@@ -1,0 +1,27 @@
+{
+  "name": "YDBaseClassSDK",
+  "version": "0.0.3",
+  "summary": "iOS组件化调研过程中的测试Base类组件",
+  "description": "组件化过程中的一个测试base工具类的远程仓库",
+  "homepage": "https://github.com/JamWangJam/YDBaseClassSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JamWangJam": "superwangjianmin@163.com"
+  },
+  "source": {
+    "git": "https://github.com/JamWangJam/YDBaseClassSDK.git",
+    "tag": "0.0.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YDBaseClassSDK/Classes/**/*",
+  "dependencies": {
+    "YDCategorySDK": [
+      "0.0.1"
+    ]
+  }
+}

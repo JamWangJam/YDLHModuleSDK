@@ -1,0 +1,6 @@
+framework module Pods_YDLHModuleSDK_Tests {
+  umbrella header "Pods-YDLHModuleSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

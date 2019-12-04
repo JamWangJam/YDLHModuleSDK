@@ -1,0 +1,6 @@
+framework module YDLHModuleSDK {
+  umbrella header "YDLHModuleSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
