@@ -47,7 +47,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
         UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
 
         // 获得view controller之后，在这种场景下，到底push还是present，其实是要由使用者决定的，mediator只要给出view controller的实例就好了
-        viewController.view.backgroundColor = [UIColor yellowColor];
+       // viewController.view.backgroundColor = [UIColor yellowColor];
     [self.navigationController pushViewController:viewController animated:YES];
         
     } else if (indexPath.row == 1) {
