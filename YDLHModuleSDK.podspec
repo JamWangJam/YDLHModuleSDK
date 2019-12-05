@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+ # 放在根目录的文件
  # s.source_files = 'YDLHModuleSDK/Classes/**/*'
-  
+  #放在这个文件夹下的文件
   s.subspec 'LHActions' do |ss|
     ss.source_files = '************/Classes/LHActions/*.{h,m}'
     
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
     ss.source_files = '************/Classes/LHModule-A/*.{h,m}'
     
   end
-  # s.resource_bundles = {
-  #   'YDLHModuleSDK' => ['YDLHModuleSDK/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YDLHModuleSDK' => ['YDLHModuleSDK/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
