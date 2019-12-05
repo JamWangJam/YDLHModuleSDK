@@ -59,43 +59,17 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
             
         } confirmAction:^(NSDictionary * _Nonnull info) {
              weakSelf.view.backgroundColor = [UIColor blueColor];
+            weakSelf.title  = [NSString stringWithFormat:@"回调传值%@",[info objectForKey:@"alertAction"]];
+            
         }];
         
-//        UIViewController *viewController =     [[CTMediator sharedInstance] CTMediator_showAlertWithMessage:@"casa" cancelAction:nil confirmAction:^(NSDictionary *info) {
-//                    // 做你想做的事
-//                    weakSelf.view.backgroundColor = [UIColor blueColor];
-//            }];
+
         viewController.view.backgroundColor = [UIColor orangeColor];
         [self.navigationController pushViewController:viewController animated:YES];
-//        UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
-//          viewController.view.backgroundColor = [UIColor yellowColor];
-//        [self.navigationController pushViewController:viewController animated:YES];
+         
     }
     
-    if (indexPath.row == 2) {
-//        // 这种场景下，很明显是需要被present的，所以不必返回实例，mediator直接present了
-//        [[CTMediator sharedInstance] CTMediator_presentImage:[UIImage imageNamed:@"image"]];
-    }
     
-    if (indexPath.row == 3) {
-//        // 这种场景下，参数有问题，因此需要在流程中做好处理
-//        [[CTMediator sharedInstance] CTMediator_presentImage:nil];
-    }
-    
-    if (indexPath.row == 4) {
-//        [[CTMediator sharedInstance] CTMediator_showAlertWithMessage:@"casa" cancelAction:nil confirmAction:^(NSDictionary *info) {
-//            // 做你想做的事
-//        }];
-    }
-    
-    if (indexPath.row == 5) {
-//        TableViewController *tableViewController = [[TableViewController alloc] init];
-//        [self presentViewController:tableViewController animated:YES completion:nil];
-    }
-    
-    if (indexPath.row == 6) {
-//        [[CTMediator sharedInstance] performTarget:@"InvalidTarget" action:@"InvalidAction" params:nil shouldCacheTarget:NO];
-    }
 }
 #pragma mark - getters and setters
 - (UITableView *)tableView
@@ -115,11 +89,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
     if (_dataSource == nil) {
         _dataSource = @[@"present detail view controller",
                         @"push detail view controller",
-                        @"present image",
-                        @"present image when error",
-                        @"show alert",
-                        @"table view cell",
-                        @"No Target-Action response"
+                       
                         ];
     }
     return _dataSource;
