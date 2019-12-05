@@ -58,6 +58,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
                     // 做你想做的事
                     weakSelf.view.backgroundColor = [UIColor blueColor];
                 }];
+        
 //        UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
 //          viewController.view.backgroundColor = [UIColor yellowColor];
 //        [self.navigationController pushViewController:viewController animated:YES];
