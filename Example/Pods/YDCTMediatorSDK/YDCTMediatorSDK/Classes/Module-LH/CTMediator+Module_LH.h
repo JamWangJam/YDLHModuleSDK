@@ -14,7 +14,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Module_LH)
-
+- (UIViewController *)CTMediator_viewControllerForDetail;
+- (void)CTMediator_showAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 @end
 
 NS_ASSUME_NONNULL_END

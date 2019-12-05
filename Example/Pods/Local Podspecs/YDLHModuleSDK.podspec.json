@@ -1,6 +1,6 @@
 {
   "name": "YDLHModuleSDK",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "iOS组件化测试库业务组件库-LHa",
   "description": "用于项目组件化调研y开发用的测试库 -LH业务组件库",
   "homepage": "https://github.com/JamWangJam/YDLHModuleSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JamWangJam/YDLHModuleSDK.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,7 +24,7 @@
       "0.0.3"
     ],
     "YDCTMediatorSDK": [
-      "0.0.1"
+      "0.0.2"
     ]
   }
 }

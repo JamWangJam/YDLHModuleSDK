@@ -1,6 +1,6 @@
 {
   "name": "YDCTMediatorSDK",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "中间件",
   "description": "业务组件中间件",
   "homepage": "https://github.com/JamWangJam/YDCTMediatorSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JamWangJam/YDCTMediatorSDK.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

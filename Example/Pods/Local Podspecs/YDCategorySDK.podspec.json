@@ -1,6 +1,6 @@
 {
   "name": "YDCategorySDK",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "啊啊啊啊啊啊啊",
   "description": "啊啊啊啊啊啊啊啊啊大萨达大",
   "homepage": "https://github.com/JamWangJam/YDCategorySDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JamWangJam/YDCategorySDK.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

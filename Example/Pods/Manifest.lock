@@ -5,12 +5,12 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - YDBaseClassSDK (0.0.3):
-    - YDCategorySDK (= 0.0.1)
-  - YDCategorySDK (0.0.1)
-  - YDCTMediatorSDK (0.0.1)
-  - YDLHModuleSDK (0.0.1):
+    - YDCategorySDK (= 0.0.2)
+  - YDCategorySDK (0.0.2)
+  - YDCTMediatorSDK (0.0.2)
+  - YDLHModuleSDK (0.0.2):
     - YDBaseClassSDK (= 0.0.3)
-    - YDCTMediatorSDK (= 0.0.1)
+    - YDCTMediatorSDK (= 0.0.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -35,21 +35,21 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YDBaseClassSDK:
-    :commit: 1479b1563bdeb6a5f6ee8ec83db97d848cd9b23a
+    :commit: 86d07c62b7fbf0f4555172e4061854cb571b798f
     :git: https://github.com/JamWangJam/YDBaseClassSDK.git
   YDCategorySDK:
-    :commit: 7d1d834da6f8706808bc14e16830edf9ae8dae2c
+    :commit: bdffbf21a45f1e684eae8d656afb86e3be2f60d3
     :git: https://github.com/JamWangJam/YDCategorySDK.git
   YDCTMediatorSDK:
-    :commit: 24b64ebf56f9677f1cb86db6673853c035606aa1
+    :commit: 644e733109e969c12e5afaf8f915087b8110bf93
     :git: https://github.com/JamWangJam/YDCTMediatorSDK.git
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YDBaseClassSDK: 47cb6b4da5b227f7d42a5796b89f70ed68e1e682
-  YDCategorySDK: 65370e8c636798cc49f5da89f600e0701fbda450
-  YDCTMediatorSDK: dcbcdee0d0496810e0196e4192af6c82f8ff4716
-  YDLHModuleSDK: 71ce1a70d745b35e8e9714c6c3d5839da1ce6404
+  YDBaseClassSDK: 4e7f43e024570bd4ae939518bc56c9af7f5cc34e
+  YDCategorySDK: 9082c9a40d099448b6e1e9c3b54ef82679784917
+  YDCTMediatorSDK: 63470494f241a6d2d0ccfc3291579ffce4e98420
+  YDLHModuleSDK: 442dbaf04ae0be79e68230603b5876be7ded69f3
 
 PODFILE CHECKSUM: 210855fc3c49e5df79081f078ddba9444b03bc75
 

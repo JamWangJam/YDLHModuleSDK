@@ -74,7 +74,7 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     if (swiftModuleName.length > 0) {
         targetClassString = [NSString stringWithFormat:@"%@.Target_%@", swiftModuleName, targetName];
     } else {
-        targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
+        targetClassString = [NSString stringWithFormat:@"%@", targetName];
     }
     NSObject *target = self.cachedTarget[targetClassString];
     if (target == nil) {
@@ -83,7 +83,7 @@ NSString * const kCTMediatorParamsKeySwiftTargetModuleName = @"kCTMediatorParams
     }
 
     // generate action
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    NSString *actionString = [NSString stringWithFormat:@"%@:", actionName];
     SEL action = NSSelectorFromString(actionString);
     
     if (target == nil) {
