@@ -55,7 +55,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
         
          __weak __typeof__(self) weakSelf = self;
         
-        UIViewController * viewController = [[CTMediator sharedInstance]CTMediator_showAlertWithMessage:@"casa" cancelAction:^(NSDictionary * _Nonnull info) {
+        UIViewController * viewController = (UIViewController *)[[CTMediator sharedInstance]CTMediator_showAlertWithMessage:@"casa" cancelAction:^(NSDictionary * _Nonnull info) {
             
         } confirmAction:^(NSDictionary * _Nonnull info) {
              weakSelf.view.backgroundColor = [UIColor blueColor];
@@ -65,6 +65,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
 //                    // 做你想做的事
 //                    weakSelf.view.backgroundColor = [UIColor blueColor];
 //            }];
+        viewController.view.backgroundColor = [UIColor orangeColor];
         [self.navigationController pushViewController:viewController animated:YES];
 //        UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
 //          viewController.view.backgroundColor = [UIColor yellowColor];
