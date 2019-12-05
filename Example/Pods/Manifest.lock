@@ -41,7 +41,7 @@ CHECKOUT OPTIONS:
     :commit: bdffbf21a45f1e684eae8d656afb86e3be2f60d3
     :git: https://github.com/JamWangJam/YDCategorySDK.git
   YDCTMediatorSDK:
-    :commit: 644e733109e969c12e5afaf8f915087b8110bf93
+    :commit: ddc02a5fdb94ccc160b726fce568b463c4db62dc
     :git: https://github.com/JamWangJam/YDCTMediatorSDK.git
 
 SPEC CHECKSUMS:
