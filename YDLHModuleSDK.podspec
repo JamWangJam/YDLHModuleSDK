@@ -32,6 +32,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'YDLHModuleSDK/Classes/**/*'
   
+  s.subspec 'LHActions' do |ss|
+    ss.source_files = '************/Classes/LHActions/*.{h,m}'
+    
+  end
+  s.subspec 'LHModule-A' do |ss|
+    ss.source_files = '************/Classes/LHModule-A/*.{h,m}'
+    
+  end
   # s.resource_bundles = {
   #   'YDLHModuleSDK' => ['YDLHModuleSDK/Assets/*.png']
   # }
