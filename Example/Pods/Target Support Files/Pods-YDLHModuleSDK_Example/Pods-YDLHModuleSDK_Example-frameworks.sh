@@ -162,11 +162,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/YDBaseClassSDK/YDBaseClassSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDCTMediatorSDK/YDCTMediatorSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YDCategorySDK/YDCategorySDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YDLHModuleSDK/YDLHModuleSDK.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/YDBaseClassSDK/YDBaseClassSDK.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YDCTMediatorSDK/YDCTMediatorSDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YDCategorySDK/YDCategorySDK.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YDLHModuleSDK/YDLHModuleSDK.framework"
 fi

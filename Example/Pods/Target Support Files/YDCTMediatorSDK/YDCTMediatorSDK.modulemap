@@ -1,0 +1,6 @@
+framework module YDCTMediatorSDK {
+  umbrella header "YDCTMediatorSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

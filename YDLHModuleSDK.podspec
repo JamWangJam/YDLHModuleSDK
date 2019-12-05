@@ -39,4 +39,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'YDBaseClassSDK', '0.0.3'
+  s.dependency 'YDCTMediatorSDK', '0.0.1'
+  
 end

@@ -13,5 +13,6 @@ target 'YDLHModuleSDK_Example' do
   
   pod 'YDBaseClassSDK' ,:git =>"https://github.com/JamWangJam/YDBaseClassSDK.git"
   pod 'YDCategorySDK' ,:git =>"https://github.com/JamWangJam/YDCategorySDK.git"
+  pod 'YDCTMediatorSDK' ,:git =>"https://github.com/JamWangJam/YDCTMediatorSDK.git"
   
 end

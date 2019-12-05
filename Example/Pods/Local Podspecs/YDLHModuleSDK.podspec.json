@@ -1,8 +1,8 @@
 {
   "name": "YDLHModuleSDK",
-  "version": "0.1.0",
-  "summary": "A short description of YDLHModuleSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "iOS组件化测试库业务组件库-LHa",
+  "description": "用于项目组件化调研y开发用的测试库 -LH业务组件库",
   "homepage": "https://github.com/JamWangJam/YDLHModuleSDK",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/JamWangJam/YDLHModuleSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,6 +22,9 @@
   "dependencies": {
     "YDBaseClassSDK": [
       "0.0.3"
+    ],
+    "YDCTMediatorSDK": [
+      "0.0.1"
     ]
   }
 }

@@ -304,12 +304,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YDLHModuleSDK_Example/Pods-YDLHModuleSDK_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/YDBaseClassSDK/YDBaseClassSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/YDCTMediatorSDK/YDCTMediatorSDK.framework",
 				"${BUILT_PRODUCTS_DIR}/YDCategorySDK/YDCategorySDK.framework",
 				"${BUILT_PRODUCTS_DIR}/YDLHModuleSDK/YDLHModuleSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDBaseClassSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDCTMediatorSDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDCategorySDK.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDLHModuleSDK.framework",
 			);
