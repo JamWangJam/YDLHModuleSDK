@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YDLHModuleSDK/Classes/**/*'
+ # s.source_files = 'YDLHModuleSDK/Classes/**/*'
   
   s.subspec 'LHActions' do |ss|
     ss.source_files = '************/Classes/LHActions/*.{h,m}'
