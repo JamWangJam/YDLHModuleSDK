@@ -50,14 +50,12 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
         viewController.view.backgroundColor = [UIColor yellowColor];
     [self.navigationController pushViewController:viewController animated:YES];
         
-    }
-    
-    if (indexPath.row == 1) {
-                __weak __typeof__(self) weakSelf = self;
-            UIViewController *viewController =     [[CTMediator sharedInstance] CTMediator_showAlertWithMessage:@"casa" cancelAction:nil confirmAction:^(NSDictionary *info) {
+    } else if (indexPath.row == 1) {
+    __weak __typeof__(self) weakSelf = self;
+        UIViewController *viewController =     [[CTMediator sharedInstance] CTMediator_showAlertWithMessage:@"casa" cancelAction:nil confirmAction:^(NSDictionary *info) {
                     // 做你想做的事
                     weakSelf.view.backgroundColor = [UIColor blueColor];
-                }];
+            }];
         [self.navigationController pushViewController:viewController animated:YES];
 //        UIViewController *viewController = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
 //          viewController.view.backgroundColor = [UIColor yellowColor];

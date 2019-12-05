@@ -47,7 +47,6 @@ NSString * const kCTMediatorActionShowAlert = @"backBlock";
                  action:kCTMediatorActionShowAlert
                  params:paramsToSend
       shouldCacheTarget:NO];
-    
 }
 
 @end
