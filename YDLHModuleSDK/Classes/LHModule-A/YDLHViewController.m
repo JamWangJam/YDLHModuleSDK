@@ -59,7 +59,7 @@ NSString * const kCellIdentifier = @"kCellIdentifier";
             
         } confirmAction:^(NSDictionary * _Nonnull info) {
              weakSelf.view.backgroundColor = [UIColor blueColor];
-            weakSelf.title  = [NSString stringWithFormat:@"回调传值%@",[info objectForKey:@"alertAction"]];
+            weakSelf.navigationItem.title  = [NSString stringWithFormat:@"回调传值%@",[info objectForKey:@"alertAction"]];
             
         }];
         
